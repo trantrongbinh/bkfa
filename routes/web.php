@@ -15,9 +15,9 @@ use App\vien;
 use App\mon;
 
 
-	Route::get('/', function(){
-		return view('admin.gioithieu');
-	});
+	// Route::get('/', function(){
+	// 	return view('admin.gioithieu');
+	// });
 
 
 
@@ -49,11 +49,13 @@ use App\mon;
 		});
 	});
 
-	Route::get('trangchu', 'pageController@trangChu');
+	Route::get('/', 'pageController@trangChu');
 
 	Route::get('ds-tintuc', 'pageController@dsTinTuc');
 
 	// Route::get('/ds-tailieu', 'pageController@dsTaiLieu');
 
 	Route::get('danh-sach-tai-lieu/{id}/{TenKhongDau}.html','pageController@dsTaiLieu');
+
+	Route::get('chi-tiet-tai-lieu/{id}/{TenKhongDau}.html','pageController@chiTietTaiLieu');
 

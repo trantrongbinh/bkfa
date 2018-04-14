@@ -21,7 +21,7 @@
                         <strong>{{$ds->gioithieu}}</strong>
                         <div class="cart-icon text-center">
                             <a href="#"><i class="fa fa-book" aria-hidden="true"></i> Slide</a>
-                            <a href="#"><i class="fa fa-sticky-note-o" aria-hidden="true"></i> Đề thi</a>
+                            <a href="chi-tiet-tai-lieu/{{ $ds->idmon }}/{{ $ds->tenkhongdau }}.html"><i class="fa fa-sticky-note-o" aria-hidden="true"></i> Đề thi</a>
                         </div>
                     </div>
                 </div>

@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/news.css">
-    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="css/dstailieu.css">
+    <link rel="stylesheet" href="css/chitiettailieu.css">
     <link rel="stylesheet" href="css/services.css">
 </head>
 

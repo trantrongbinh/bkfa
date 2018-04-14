@@ -44,7 +44,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link smooth-scroll" href="/">Trang chủ</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle smooth-scroll" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tài liệu</a>
                         <div class="dropdown-menu dropdown-cust" aria-labelledby="navbarDropdownMenuLink">

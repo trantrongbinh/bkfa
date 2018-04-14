@@ -27,4 +27,10 @@ class pageController extends Controller
     	$dsmon = mon::where('idvien',$id)->paginate(5);
     	return view('pages.dstailieu', ['vien'=>$vien, 'dsmon'=>$dsmon]);
     }
+
+    function chiTietTaiLieu($id){
+        $vien = vien::all();
+        $chitiet = dethi::where('idmon',$id);
+        return view('pages.chitiettailieu', ['vien'=>$vien, 'chitiet'=>$chitiet]);
+    }
 }
